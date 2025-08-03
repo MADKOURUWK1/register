@@ -1,0 +1,29 @@
+{
+  "owner": {
+    "username": "MADKOURUWK1",
+    "email": "omarmadkouruwk@gmail.com"
+  },
+  "record": {
+    "MX": [
+      {
+        "name": "@",
+        "value": "feedback-smtp.eu-west-1.amazonses.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      {
+        "name": "@",
+        "value": "v=spf1 include:amazonses.com ~all"
+      },
+      {
+        "name": "resend._domainkey",
+        "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPvNaoj0K0e3XzI3SQ3P1SJFWfiQJD9TfA8DRrdYveWc8LOhfM71anO2A0P6lCWA19acNytFDGufWkDOx+ie8XOIBVQOQyJr+1njKUocSZnxqv0H29/Wx1NEMw9TUrehrC0+p52Z6z3jbx146z84qRb436JvEzajxSwTu87MA2YQIDAQAB"
+      },
+      {
+        "name": "_dmarc",
+        "value": "v=DMARC1; p=none;"
+      }
+    ]
+  }
+}
